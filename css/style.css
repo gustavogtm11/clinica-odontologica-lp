@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+main,
+section,
+.container,
+.content {
+    background-color: transparent !important;
+}
+
+body {
+    
+    background: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar {
+    backdrop-filter: blur(6px);
+}
+
+.sublinhado-animado {
+    position: relative;
+}
+
+.sublinhado-animado::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s;
+}
+
+.sublinhado-animado:hover::after {
+    width: 100%;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    min-height: 100vh;
+}
+
+#sobre {
+    padding-top: 5rem;
+
+}
+
+.img-sobre {
+    height: 450px;
+}
+
+.card-img-uniforme {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.text-decoration {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-medias i {
+    text-decoration: none;
+    color: white;
+}
+
+.social-medias i:hover {
+    transform: scale(1.1);
+    color: #0B5ED7;
+}

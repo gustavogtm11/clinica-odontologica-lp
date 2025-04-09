@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .img-sobre {
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .contato-footer .container {
+        flex-direction: row; /* Retorna ao layout horizontal em telas maiores */
+        text-align: left; /* Alinha os textos à esquerda */
+        justify-content: space-between; /* Espaça os itens de forma uniforme */
+    }
+}
+
+

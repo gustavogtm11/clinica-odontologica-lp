@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap + Animate.css + FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/responsividade.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Clínica Odonto</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary bg-opacity-50 fixed-top ">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo2.png" alt="logo" class="img-fluid" style="width: 190px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <ul class="navbar-nav text-center gap-lg-4 pe-5">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold text-white sublinhado-animado active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold text-white sublinhado-animado" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold text-white sublinhado-animado" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold text-white sublinhado-animado" href="#feedbacks">Feedbacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold text-white sublinhado-animado" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO HOME -->
+    <section id="home" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center gy-4 flex-column-reverse flex-md-row">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-5 fw-bold">Sorria com Confiança</h1>
+                    <p class="lead">Na nossa clínica, seu bem-estar é prioridade. Oferecemos atendimento humanizado e
+                        tecnologia de ponta para cuidar do seu sorriso.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-check text-success me-2"></i> Atendimento personalizado</li>
+                        <li><i class="fa-solid fa-check text-success me-2"></i> Profissionais experientes</li>
+                        <li><i class="fa-solid fa-check text-success me-2"></i> Tecnologia de última geração</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary btn-lg mt-3">
+                        <i class="fa-solid fa-tooth me-2"></i> Agende seu horário
+                    </a>
+                </div>
+                <div class="col-md-6 text-center ">
+                    <img src="https://empreendedordentista.com.br/wp-content/uploads/2023/03/mulheres-na-odontologia-atendimento.jpg"
+                        alt="Imagem da clínica" class="img-peson img-fluid rounded shadow" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="sobre" class="d-flex align-items-center min-vh-100 py-5">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <!-- Imagem -->
+                <div class="col-8 col-md-6 text-center">
+                    <img src="https://gaspariniodontologia.com.br/wp-content/uploads/2020/11/odontologia-digital-o-que-e-ok.jpg"
+                        alt="Sobre nós" class="rounded-3 shadow-lg w-100" style="max-width: 500px;" />
+                </div>
+
+                <!-- Texto -->
+                <div class="col-12 col-md-6">
+                    <h2 class="mb-4 fw-bold">Quem somos</h2>
+                    <p>
+                        Somos uma clínica odontológica que valoriza a saúde, a autoestima e o bem-estar dos nossos
+                        pacientes. Nosso
+                        time é formado por especialistas comprometidos com a excelência no atendimento e na realização
+                        dos
+                        procedimentos.
+                    </p>
+                    <p>
+                        Trabalhamos com as melhores técnicas e equipamentos para garantir resultados duradouros e
+                        satisfatórios.
+                    </p>
+                    <ul class="list-unstyled ps-3">
+                        <li>✔️ + de 10 anos de experiência</li>
+                        <li>✔️ Clínica equipada com tecnologia digital</li>
+                        <li>✔️ Ambiente confortável e acolhedor</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary mt-3">Fale conosco</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SEÇÃO SERVIÇOS -->
+    <section id="servicos" class="d-flex align-items-center">
+        <div class="container pt-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Serviços</h2>
+                <p class="text-muted">Tratamentos personalizados para o seu sorriso</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.clinicadavilla.com.br/wp-content/uploads/2021/02/clareamento-dental-1.jpg" class="card-img-top card-img-uniforme" alt="Clareamento" />
+                        <div class="card-body">
+                            <h5 class="card-title">Clareamento Dental</h5>
+                            <p class="card-text">Técnicas avançadas para deixar seus dentes mais brancos com segurança e
+                                eficácia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.guilhermerothier.com.br/wp-content/uploads/2023/05/tecnicas-de-implante-dentario-ipanema-rj-guilherme-rothier.jpg" class="card-img-top card-img-uniforme" alt="Implantes" />
+                        <div class="card-body">
+                            <h5 class="card-title">Implantes Dentários</h5>
+                            <p class="card-text">Soluções duradouras e confortáveis para substituir dentes ausentes com
+                                naturalidade.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://ceoparana.com.br/wp-content/uploads/2016/06/Ortodontia-Curitiba.jpg" class="card-img-top card-img-uniforme" alt="Ortodontia" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ortodontia</h5>
+                            <p class="card-text">Aparelhos fixos e alinhadores estéticos para um sorriso alinhado e
+                                saudável.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.odontologiagiordano.com.br/wp-content/uploads/2023/09/limpeza-dentes-dental-sorocaba-polimento-dentista.jpeg" class="card-img-top card-img-uniforme" alt="Limpeza Dental" />
+                        <div class="card-body">
+                            <h5 class="card-title">Limpeza e Prevenção</h5>
+                            <p class="card-text">Limpezas periódicas e orientações para manter sua saúde bucal em dia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FEEDBACKS -->
+    <section id="feedbacks" class="d-flex align-items-center">
+        <div class="container my-5 ">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">O que nossos pacientes dizem</h2>
+                <p class="text-muted">Depoimentos reais de quem confia no nosso trabalho</p>
+            </div>
+
+            <div class="card shadow-sm rounded-4 mx-auto " style="max-width: 600px;">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="Foto de perfil"
+                            class="rounded-circle me-3" width="50" height="50">
+                        <div>
+                            <h6 class="mb-0 fw-bold">Maria Fernandes</h6>
+                            <small class="text-muted">Há 2 dias</small>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Fui super bem atendida desde a recepção até o procedimento. Ambiente limpo, equipe atenciosa e
+                        muito profissional. Recomendo de olhos fechados!
+                    </p>
+                </div>
+            </div>
+            <div class="card shadow-sm rounded-4 mx-auto" style="max-width: 600px;">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://randomuser.me/api/portraits/women/34.jpg" alt="Foto de perfil"
+                            class="rounded-circle me-3" width="50" height="50">
+                        <div>
+                            <h6 class="mb-0 fw-bold">Maria Fernandes</h6>
+                            <small class="text-muted">Há 6 dias</small>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Fui super bem atendida desde a recepção até o procedimento. Ambiente limpo, equipe atenciosa e
+                        muito profissional. Recomendo de olhos fechados!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato" class="d-flex flex-column min-vh-100">
+        <div class="container my-auto">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Entre em contato</h2>
+                <p class="text-muted">Agende uma consulta ou tire suas dúvidas</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="bg-white p-4 p-md-5 shadow rounded-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Seu nome" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="seuemail@email.com"
+                                    required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="4"
+                                    placeholder="Digite sua mensagem..." required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="bg-dark text-white py-3 contato-footer mt-auto">
+            <div class="text-container container d-flex justify-content-between align-items-center">
+                <strong>Copyright © 2014-2021 <a href="https://github.com/gustavogtm11">Gustavo Tavares</a>.</strong>
+                <div class="d-flex gap-4 justify-content-end align-items-center">
+                    <div class="social-medias">
+                        <a href="https://maps.app.goo.gl/VQDtShihDnpLcdQG7" target="_blank"><i
+                                class="fa-solid fa-location-dot me-2"></i></a>
+                    </div>
+                    <div class="social-medias">
+                        <a
+                            href="https://wa.me/87998185575?text=Ol%C3%A1%2C%20Gustavo.%20Voc%C3%AA%20foi%20selecionado%20para%20fazer%20parte%20do%20nosso%20time.%20Parab%C3%A9ns!!!" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <div class="social-medias">
+                        <a  href="https://github.com/gustavogtm11"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

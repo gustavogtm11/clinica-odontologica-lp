@@ -1,14 +1,10 @@
 @media (max-width: 403px){
     #feedbacks{
-        padding-top: 70px;
+        padding-top: 60px;
     }
 }
 @media (max-width: 768px) {
-    .img-sobre {
-        max-width: 300px;
-        margin: 0 auto;
-        display: block;
-    }
+    
     .feedback{
         flex-wrap: wrap;
     }
@@ -16,6 +12,9 @@
         flex-direction: row; /* Retorna ao layout horizontal em telas maiores */
         text-align: left; /* Alinha os textos à esquerda */
         justify-content: space-between; /* Espaça os itens de forma uniforme */
+    }
+    .sobre{
+        padding-top: 40px;
     }
 }
 @media (max-width: 992px){

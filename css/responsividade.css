@@ -1,10 +1,18 @@
 @media (max-width: 403px){
-    #feedbacks{
-        padding-top: 60px;
-    }
+    
     .feedbacks-container{
-        padding-top: 30px;
+        padding-top: 6rem;
     }
+    .servicos-container{
+        padding-top: 2rem;
+    }
+    .contact-container{
+        padding-top: 4rem;
+    }
+    .about-container{
+        padding-top: 3rem;
+    }
+
 }
 @media (max-width: 768px) {
     

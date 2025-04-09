@@ -2,6 +2,9 @@
     #feedbacks{
         padding-top: 60px;
     }
+    .feedbacks-container{
+        padding-top: 30px;
+    }
 }
 @media (max-width: 768px) {
     
@@ -19,7 +22,7 @@
 }
 @media (max-width: 992px){
     #servicos{
-        padding-top: 60px;
+        padding-top: 6rem;
     }
 }
 

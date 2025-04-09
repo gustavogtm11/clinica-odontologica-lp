@@ -10,5 +10,9 @@
         justify-content: space-between; /* Espaça os itens de forma uniforme */
     }
 }
-
+@media (max-width: 992px){
+    #servicos{
+        padding-top: 60px;
+    }
+}
 

@@ -34,13 +34,17 @@ section {
     scroll-snap-stop: always;
     min-height: 100vh;
 }
+
+.carousel-item img {
+    border-radius: 10px;
+}
 .card-img-uniforme {
     height: 200px;
     object-fit: cover;
 }
 .social-medias i {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 
 .social-medias i:hover {

@@ -1,10 +1,15 @@
 @media (max-width: 403px){
     
     #sobre{
-        padding-top: 6rem;
+        padding-top: 1.5rem;
+    }
+    .about-img{
+        object-position: center;
+        object-fit: cover;
+        align-self: center;
     }
     .servicos-container{
-        padding-top: 7rem;
+        padding-top: 5rem;
     }
     .feedbacks-container{
         padding-top: 6.5rem;
